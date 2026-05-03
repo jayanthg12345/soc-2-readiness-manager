@@ -2,6 +2,7 @@ package com.campuspe.soc2_readiness_manager.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -20,7 +21,7 @@ public class ComplianceRecord {
     private String status;
     private int score;
 
-    private boolean deleted = false;
+    private boolean deleted;
 
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
