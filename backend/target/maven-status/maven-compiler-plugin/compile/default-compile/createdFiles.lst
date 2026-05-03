@@ -3,6 +3,7 @@ com\campuspe\soc2_readiness_manager\exception\ResourceNotFoundException.class
 com\campuspe\soc2_readiness_manager\config\CacheConfig.class
 com\campuspe\soc2_readiness_manager\config\SecurityConfig.class
 com\campuspe\soc2_readiness_manager\config\JwtUtil.class
+com\campuspe\soc2_readiness_manager\repository\ComplianceRepository.class
 com\campuspe\soc2_readiness_manager\entity\PriorityLevel.class
 com\campuspe\soc2_readiness_manager\repository\ReadinessItemRepository.class
 com\campuspe\soc2_readiness_manager\controller\ReadinessItemController.class
@@ -14,6 +15,7 @@ com\campuspe\soc2_readiness_manager\exception\BusinessValidationException.class
 com\campuspe\soc2_readiness_manager\dto\ReadinessItemRequest$ReadinessItemRequestBuilder.class
 com\campuspe\soc2_readiness_manager\exception\DuplicateControlReferenceException.class
 com\campuspe\soc2_readiness_manager\entity\ReadinessItem.class
+com\campuspe\soc2_readiness_manager\entity\ComplianceRecord.class
 com\campuspe\soc2_readiness_manager\service\ReadinessItemServiceImpl.class
 com\campuspe\soc2_readiness_manager\exception\InvalidReadinessScoreException.class
 com\campuspe\soc2_readiness_manager\dto\ReadinessItemRequest.class

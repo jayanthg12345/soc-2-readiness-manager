@@ -5,6 +5,7 @@ C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backe
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\config\SecurityConfig.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\controller\ReadinessItemController.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\dto\ReadinessItemRequest.java
+C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\entity\ComplianceRecord.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\entity\ControlCategory.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\entity\PriorityLevel.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\entity\ReadinessItem.java
@@ -14,6 +15,7 @@ C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backe
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\exception\InvalidDueDateException.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\exception\InvalidReadinessScoreException.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\exception\ResourceNotFoundException.java
+C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\repository\ComplianceRepository.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\repository\ReadinessItemRepository.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\service\ReadinessItemService.java
 C:\Users\jayan\OneDrive\Desktop\internship project\soc-2-readiness-manager\backend\src\main\java\com\campuspe\soc2_readiness_manager\service\ReadinessItemServiceImpl.java
