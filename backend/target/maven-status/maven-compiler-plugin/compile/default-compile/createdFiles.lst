@@ -1,11 +1,15 @@
+com\campuspe\soc2_readiness_manager\repository\UserRepository.class
 com\campuspe\soc2_readiness_manager\service\ReadinessItemService.class
 com\campuspe\soc2_readiness_manager\exception\ResourceNotFoundException.class
 com\campuspe\soc2_readiness_manager\config\CacheConfig.class
 com\campuspe\soc2_readiness_manager\config\SecurityConfig.class
 com\campuspe\soc2_readiness_manager\config\JwtUtil.class
 com\campuspe\soc2_readiness_manager\repository\ComplianceRepository.class
+com\campuspe\soc2_readiness_manager\service\AuthService.class
 com\campuspe\soc2_readiness_manager\entity\PriorityLevel.class
+com\campuspe\soc2_readiness_manager\entity\User.class
 com\campuspe\soc2_readiness_manager\repository\ReadinessItemRepository.class
+com\campuspe\soc2_readiness_manager\controller\AuthController.class
 com\campuspe\soc2_readiness_manager\controller\ReadinessItemController.class
 com\campuspe\soc2_readiness_manager\config\JpaAuditingConfig.class
 com\campuspe\soc2_readiness_manager\config\JwtAuthFilter.class

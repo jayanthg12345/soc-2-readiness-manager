@@ -2,6 +2,7 @@ package com.campuspe.soc2_readiness_manager.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
+import javax.crypto.SecretKey;
 import io.jsonwebtoken.security.Keys;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
@@ -105,4 +106,31 @@ public class JwtUtil {
                 .distinct()
                 .collect(Collectors.toList());
     }
+    private final String SECRET = "my-secret-key-my-secret-key-my-secret-key"; // >= 32 chars
+
+    private SecretKey getKey() {
+        return Keys.hmacShaKeyFor(SECRET.getBytes());
+    }
+
+    // Generate JWT
+    public String generateToken(String email) {
+        return Jwts.builder()
+                .subject(email)
+                .issuedAt(new Date())
+                .expiration(new Date(System.currentTimeMillis() + 86400000))
+                .signWith(getKey())
+                .compact();
+    }
+
+    // Extract email from token
+    public String extractEmail(String token) {
+        Claims claims = Jwts.parser()
+                .verifyWith(getKey())
+                .build()
+                .parseSignedClaims(token)
+                .getPayload();
+
+        return claims.getSubject();
+    }
+
 }
